@@ -7,7 +7,7 @@ Selective Spatio-Temporal Aggregation based Pose Refinement System: Towards unde
 
 
 ## Citation
-
+```
 @misc{yang2020selective,
       title={Selective Spatio-Temporal Aggregation Based Pose Refinement System: Towards Understanding Human Activities in Real-World Videos}, 
       author={Di Yang and Rui Dai and Yaohui Wang and Rupayan Mallick and Luca Minciullo and Gianpiero Francesca and Francois Bremond},
@@ -16,3 +16,4 @@ Selective Spatio-Temporal Aggregation based Pose Refinement System: Towards unde
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+```
