@@ -13,8 +13,8 @@ Selective Spatio-Temporal Aggregation Based Pose Refinement System, WACV 2021.
 ```
 python tools/ssta.py --pose1 <filename-pose1> --pose2 <filename-pose2> --pose3 <filename-pose3> --outname <output-filename> (--gt <filename-gt if have>)
 ```
-## 3D reconstruction
-- Use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose) for 3D reconstruction and visualization.
+## 3D visualization
+- Use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose) for 3D visualization.
 
 ## Citation
 ```bibtex
