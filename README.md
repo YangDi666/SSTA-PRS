@@ -7,8 +7,8 @@ Selective Spatio-Temporal Aggregation based Pose Refinement System, WACV 2021.
 ![ad](https://github.com/walker-a11y/SSTA-PRS/blob/master/demo/smarthome.png)
 
 ## SST-A toolbox
-- Get 2D poses using 3 estimators;
-- Make the 2D pose results into '.npz' file (nb_frames * nb_joints * 2);
+- Get 2D poses for your video using 3 expert estimators (e.g. [LCRNet](https://thoth.inrialpes.fr/src/LCR-Net/), [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), ...);
+- Make the 2D pose results into '.npz' file (nb_frames * nb_joints * 2) and make sure the joints indexes are consistent;
 - Run this script to get SST-A pose (saved as '.npz' file) :
 ```
 python tools/ssta.py --pose1 <filename-pose1> --pose2 <filename-pose2> --pose3 <filename-pose3> --outname <output-filename> (--gt <filename-gt if have>)
