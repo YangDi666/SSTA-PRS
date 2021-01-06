@@ -1,5 +1,5 @@
-# SSTA-PRS
-Selective Spatio-Temporal Aggregation based Pose Refinement System, WACV 2021.
+# SSTA-PRS: Selective Spatio-Temporal Aggregation based Pose Refinement System
+Selective Spatio-Temporal Aggregation based Pose Refinement System: Towards understanding human activities in real-world videos, WACV 2021.
 
 ## Refined pose data
 - [Skeleton data](https://drive.google.com/file/d/1tJuGEZGgADgjinN7oT2qEMAeKi9CRj8E/view?usp=sharing) of Smarthome:
