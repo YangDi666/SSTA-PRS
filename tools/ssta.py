@@ -161,8 +161,7 @@ class PRS():
 		color[0]=2
 		#mpjpes=mpjpes[np.where(confidences<1)]
 		#color=color[np.where(confidences<1)]
-		I1=len(np.where(color[np.where( mpjpes
-	<=3)]!=0)[0])
+		I1=len(np.where(color[np.where(mpjpes<=3)]!=0)[0])
 		print(I1)
 		#I1=np.where(confidences>=0 and confidences<0.05)
 		ax.scatter(confidences, mpjpes, c=color)
