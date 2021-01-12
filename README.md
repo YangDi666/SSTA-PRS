@@ -19,6 +19,9 @@ python tools/ssta.py --pose1 <xxx-pose1> --pose2 <xxx-pose2> --pose3 <xxx-pose3>
 ## 3D visualization
 For 3D visualization, please use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose).
 
+## Activity Recognition
+For pose based activity recognition, please ref to [2s-AGCN for smarthome](https://github.com/YangDi666/2s-AGCN-For-Daily-Living).
+
 ## Citation
 If you find this code useful for your research, please consider citing our paper:
 ```bibtex
