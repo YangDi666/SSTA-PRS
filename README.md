@@ -11,7 +11,7 @@ Selective Spatio-Temporal Aggregation Based Pose Refinement System, WACV 2021.
 ## SST-A toolbox
 To obtain refined pose sequence, you need to:
 1. Extract 2D poses of input video from 3 expert estimators (e.g., [LCRNet](https://thoth.inrialpes.fr/src/LCR-Net/), [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), ...);
-2. Save 2D pose results into 'xxx-pose1.npz', 'xxx-pose2.npz', 'xxx-pose3.npz', .... Make sure '.npz' has the dimension of $nb_frames\times nb_joints\times 2$ and joints indexes are consistent;
+2. Save 2D pose results into 'xxx-pose1.npz', 'xxx-pose2.npz', 'xxx-pose3.npz', .... Make sure '.npz' has the dimension of $$nb_frames\times nb_joints\times 2$$ and joints indexes are consistent;
 3. Run the script to get refined pose by SST-A. Ouput will be save as 'output.npz'.
 ```shell script
 python tools/ssta.py --pose1 <xxx-pose1> --pose2 <xxx-pose2> --pose3 <xxx-pose3> --outname <output> (--gt <filename-gt if have>)
