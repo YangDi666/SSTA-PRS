@@ -9,14 +9,15 @@ Selective Spatio-Temporal Aggregation Based Pose Refinement System, WACV 2021.
 ![ad](https://github.com/walker-a11y/SSTA-PRS/blob/master/demo/smarthome.png)
 
 ## SST-A toolbox
-- Get 2D poses for your video using 3 expert estimators (e.g. [LCRNet](https://thoth.inrialpes.fr/src/LCR-Net/), [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), ...);
-- Make the 2D pose results into '.npz' file (nb_frames * nb_joints * 2) and make sure the joints indexes are consistent;
-- Run this script to get SST-A pose (saved as '.npz' file) :
-```
-python tools/ssta.py --pose1 <filename-pose1> --pose2 <filename-pose2> --pose3 <filename-pose3> --outname <output-filename> (--gt <filename-gt if have>)
+To obtain refined pose sequence, you need to:
+1. Extract 2D poses of input video from 3 expert estimators (e.g., [LCRNet](https://thoth.inrialpes.fr/src/LCR-Net/), [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), ...);
+2. Save 2D pose results into 'xxx-pose1.npz', 'xxx-pose2.npz', 'xxx-pose3.npz', .... Make sure '.npz' has the dimension of nb_frames\times nb_joints\times 2 and joints indexes are consistent;
+3. Run the script to get refined pose by SST-A. Ouput will be save as 'output.npz'.
+```shell script
+python tools/ssta.py --pose1 <xxx-pose1> --pose2 <xxx-pose2> --pose3 <xxx-pose3> --outname <output> (--gt <filename-gt if have>)
 ```
 ## 3D visualization
-- Use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose) for 3D visualization.
+For 3D visualization, please use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose).
 
 ## Citation
 If you find this code useful for your research, please consider citing our paper:
