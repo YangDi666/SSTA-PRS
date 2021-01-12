@@ -19,13 +19,13 @@ python tools/ssta.py --pose1 <filename-pose1> --pose2 <filename-pose2> --pose3 <
 - Use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose) for 3D visualization.
 
 ## Citation
+If you find this code useful for your research, please consider citing our paper:
 ```bibtex
 @InProceedings{Yang_2021_WACV,
-    author    = {Yang, Di and Dai, Rui and Wang, Yaohui and Mallick, Rupayan and Minciullo, Luca and Francesca, Gianpiero and Bremond, Francois},
-    title     = {Selective Spatio-Temporal Aggregation Based Pose Refinement System: Towards Understanding Human Activities in Real-World Videos},
+    author = {Yang, Di and Dai, Rui and Wang, Yaohui and Mallick, Rupayan and Minciullo, Luca and Francesca, Gianpiero and Bremond, Francois},
+    title = {Selective Spatio-Temporal Aggregation Based Pose Refinement System: Towards Understanding Human Activities in Real-World Videos},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2021},
-    pages     = {2363-2372}
+    month = {January},
+    year = {2021}
 }
 ```
