@@ -1,5 +1,4 @@
-# SSTA-PRS
-Selective Spatio-Temporal Aggregation Based Pose Refinement System, WACV 2021.
+# Selective Spatio-Temporal Aggregation Based Pose Refinement System
 ### [Paper](https://openaccess.thecvf.com/content/WACV2021/papers/Yang_Selective_Spatio-Temporal_Aggregation_Based_Pose_Refinement_System_Towards_Understanding_Human_WACV_2021_paper.pdf)
 
 
