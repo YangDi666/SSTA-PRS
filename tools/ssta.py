@@ -26,7 +26,7 @@ def get_parser():
 
     parser.add_argument(
         '--vis-conf',
-        default=True)
+        default=False)
 
     parser.add_argument('--outname', default='ssta.npz')
     return parser
@@ -199,7 +199,7 @@ class PRS():
 			print('PCK_op: ', len(np.where(pjpe_video_p3<=2.0)[0])/len(pjpe_video_p3))
 			print('PCK_ssta: ', len(np.where(pjpe_video_ssta<=2.0)[0])/len(pjpe_video_ssta))
 		
-		print('Visualization of Confidences...')
+		print('Visualization of Confidences:', self.arg.vis_conf)
 		if self.arg.vis_conf:
 			self.vis(mpjpes[0:-1], confidences[0:-1])	
 		#print(alp_2d, op_2d)

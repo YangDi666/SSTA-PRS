@@ -15,6 +15,10 @@ To obtain refined pose sequence, you need to:
 ```shell script
 python tools/ssta.py --pose1 <xxx-pose1> --pose2 <xxx-pose2> --pose3 <xxx-pose3> --outname <output> (--gt <filename-gt if have>)
 ```
+An example: 
+```shell script
+python tools/ssta.py --pose1 demo/WatchTV_p02_r03_v05_c05_Alphapose2d.npz --pose2 demo/WatchTV_p02_r03_v05_c05_LCRNet2d.npz --pose3 demo/WatchTV_p02_r03_v05_c05_OP2d.npz --outname demo/WatchTV_p02_r03_v05_c05_SSTA2d.npz
+```
 ## 3D visualization
 For 3D visualization, please use [VideoPose3D](https://github.com/YangDi666/Video_3D_Pose_Estimation#i-have-2d-pose).
 
